@@ -97,6 +97,10 @@ header ul li a:active {
     margin-top: 51px;
 }
 
+span {
+    color: #EE4248;
+}
+
 .offer-text h1 {
     font-weight: 700;
     font-size: 48px;
@@ -307,4 +311,19 @@ footer p {
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
+}
+
+@media only screen and (max-width: 512px) {
+    .one-ul {
+        display: none;
+    }
+    .offer img {
+        display: none;
+    }
+    .about img {
+        display: none;
+    }
+    .services ul {
+        flex-direction: column;
+    }
 }
