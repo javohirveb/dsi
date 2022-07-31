@@ -326,4 +326,41 @@ footer p {
     .services ul {
         flex-direction: column;
     }
+    .services ul li {
+        margin-left: 0;
+    }
+    .offer-text h1 {
+        font-size: 2rem;
+    }
+    .offer-text p {
+        font-size: 1rem;
+    }
+    .about {
+        margin-top: 20px;
+    }
+    .about-text {
+        padding: 20px 0px;
+    }
+    .services {
+        margin-top: 20px;
+    }
+    .services h1 {
+        font-size: 2rem;
+    }
+    .connection {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .address {
+        width: 100%;
+    }
+    .address p {
+    }
+    .contact {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .contact p {
+        font-size: 1rem;
+    }
 }
