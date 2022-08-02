@@ -302,9 +302,7 @@ footer {
 }
 
 footer p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     background: #EE4248;
     padding: 20px 0px;
     font-weight: 400;
@@ -344,6 +342,24 @@ footer p {
     .services {
         margin-top: 20px;
     }
+    .services ul li {
+        align-items: center;
+        padding: 0%;
+        padding-top: 1.5rem;
+    }
+    .services ul li img {
+        width: 80px;
+        height: 80px;
+    }
+    .services ul li h2 {
+        font-size: 1.5rem;
+        margin-top: 5px;
+    }
+    .services ul li p {
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 5px;
+    }
     .services h1 {
         font-size: 2rem;
     }
@@ -355,6 +371,7 @@ footer p {
         width: 100%;
     }
     .address p {
+        font-size: 1rem;
     }
     .contact {
         width: 100%;
